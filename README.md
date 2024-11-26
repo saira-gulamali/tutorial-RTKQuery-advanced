@@ -1,8 +1,25 @@
-# React + Vite
+# Lesson 07 - Dave Gray - RTK Query Advanced
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is taken from tutorial
+https://youtu.be/9P2IUx13MZI?si=BOPHb3riFOcRWYLs
 
-Currently, two official plugins are available:
+This is a advanced tutorial on RTK Query. We are building a Blog App. This repository contains the final code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+
+- react
+- vite
+- Redux Toolkit
+- RTK Query
+- json-server
+
+## Startup
+
+### To start the server
+
+- copy files locally and cd to the directory
+- npm install
+- npm run dev
+- in a second terminal, start json-server:
+- npx json-server --watch --port 3500 data/db.json
+- in a browser connect to localhost:5173
